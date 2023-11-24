@@ -7,7 +7,15 @@ function fizzbuzz(num) {
         } else {
             if (num % 5 == 0) {
                 return "buzz";
-            }
+            } else {
+                return num;
             }
         }
     }
+}
+
+let answer = parseInt(prompt("Please enter the number you would like to fizzbuzz up to: ", 100));
+
+for (let i = 1; i <= answer; i++) {
+    console.log(fizzbuzz(i));
+}
