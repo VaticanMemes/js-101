@@ -5,8 +5,7 @@ let loses = 0;
 
 while (true) {
     const enemy = Math.floor(Math.random() * 3);
-    console.log("             JavaScript rock paper scissors!!!");
-    console.log("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+    console.log("JavaScript rock paper scissors!!!");
     const move = prompt("Rock, paper, or scissors? Or 'q' to quit. ").toLowerCase();
 
     if (move === "q") {
